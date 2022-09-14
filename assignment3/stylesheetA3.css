@@ -1,0 +1,60 @@
+
+/* Main Page */
+
+.darkpurple {
+  color: #72264C;
+}
+
+h2 {
+  color: #247CD5;
+}
+.darkblue {
+  color:#15497E
+}
+/*pink*/
+h3 {
+color: #E2177C;
+}
+
+h4 {
+  color: green;
+}
+/*orange*/
+h5 {
+  color:#E4913E;
+}
+/*purple */
+p {
+  color: #AA37DB;
+}
+
+.bitch {
+  color:#4E1268
+}
+a:link  {
+color: red;
+}
+a:hover {
+color: yellow;
+}
+a:active{
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+a {
+  text-decoration: none;
+}
+.blackback {
+  background-color:#000000;
+}
+.redspan {
+  color: red;
+}
+
+.divblack {
+  background-color: #000000; 
+}
