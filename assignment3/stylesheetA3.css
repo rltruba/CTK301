@@ -31,18 +31,23 @@ p {
 .darkpurple2 {
   color:#4E1268
 }
+
+
 a:link  {
 color: red;
-}
-a:hover {
-color: yellow;
-}
-a:active{
-  color: yellow;
 }
 
 a:visited {
   color: green;
+}
+
+a:active{
+  color: yellow;
+}
+
+a:hover {
+color: yellow;
+text-decoration: underline;
 }
 
 a {
