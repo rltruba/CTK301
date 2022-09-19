@@ -1,0 +1,44 @@
+h1 {
+  color: #FFFFFF;
+}
+
+.lightblue {
+  background-color: #7CB2E8;
+}
+a {
+  color:green;
+ text-decoration: none;
+}
+
+a:hover {
+  color: red;
+ text-decoration: underline;
+}
+
+ h2 {
+   color: blue;
+ }
+.orange {
+  color: orange;
+}
+.redtext {
+  color:red; 
+}
+h3 {
+  background-color: yellow;
+}
+
+h4 {
+  color: yellow;
+  background-color: green;
+}
+.lightgreen {
+  background-color: #B2E87C;
+}
+
+h5 {
+  color: red;
+}
+.divyellow {
+  background-color: yellow;
+}
