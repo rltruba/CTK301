@@ -28,7 +28,7 @@ main a {
 
 main a:hover {
   text-decoration: underline;
-  color: red; 
+  color: red;
 }
 
 body {
@@ -67,5 +67,6 @@ footer {
   padding: 20px;
   font-weight: bold;
   font-style: italic;
+  text-align: center; 
 
 }
