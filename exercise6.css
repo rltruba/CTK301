@@ -1,0 +1,68 @@
+body {
+  background-color: #999999;
+  }
+
+#wrapper {
+margin: 1em auto;
+  padding: 0;
+  width: 1000px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+}
+
+
+
+
+header {
+  grid-column: span 6;
+  background-color: lightblue;
+}
+
+nav {
+  grid-column: span 1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  width: 200px;
+}
+
+nav li a {
+  display: block;
+  background-color: red;
+  border: 1px solid black;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  grid-column: span 4;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+.floatimg {
+  float: left;
+  margin: 10px;
+}
+
+aside {
+  background-color: lightgreen;
+  padding: 10px; 
+}
+
+footer {
+  background-color: lightblue;
+  grid-column: span 6;
+}
