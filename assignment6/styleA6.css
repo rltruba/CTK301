@@ -1,0 +1,107 @@
+body {
+background-image: url(a62.png);
+}
+
+nav li {
+  background-color: #ee0000;
+  margin: 5px;
+  padding: 0px;
+  width: 170px;
+  display: inline-block
+}
+
+ nav {
+   margin: 0 0 0 10px;
+   grid-column: span 1;
+ }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: #bb0000;
+}
+
+h1 {
+  Font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  color: white;
+  border: 0;
+  padding: 20px;
+  margin: 10px;
+  background-color: black;
+  grid-column: span 6;
+}
+
+.floating {
+  float: left;
+  margin: 0 12px 12px 12px;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+main {
+  grid-column: span 5;
+  padding: 10px;
+}
+main a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.wrapper{
+  margin: 1em auto;
+    padding: 0;
+    width: 900px;
+    border: 1px solid #ff0000;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    border: 5px solid black;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+
+}
+
+.parapgraph1 {
+  font-family: Georgia;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.parapgraph2 {
+  font-family: Georgia;
+  text-align: justify;
+
+}
+
+footer {
+  background-color: #dd0000;
+  color: white;
+  padding: 10px;
+  font-family: Verdana;
+  font-style: italic;
+  text-align: center;
+  grid-column: span 6;
+  border-top: 5px solid black;
+
+}
