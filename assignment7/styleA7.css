@@ -1,0 +1,125 @@
+body {
+  background-color: #aaaaaa;
+}
+
+.wrapper{
+  margin: 1em auto;
+    padding: 0px;
+    width: 960px;
+    border: 5px solid #0000bb;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+h1 {
+  grid-column: span 4;
+  color: lightblue;
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(27,49,170,1) 0%, rgba(19,81,196,1) 50%, rgba(2,186,255,1) 100%);
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 a {
+  text-decoration: none;
+  color: lightblue;
+  font-style: italic;
+  margin: 0;
+  padding: 15px;
+  display: block;
+}
+
+h1 a:hover {
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,49,170,1) 0%, rgba(19,81,196,1) 50%, rgba(2,186,255,1) 100%);
+}
+
+nav {
+  grid-column: span 4;
+  background:#1351c4;
+}
+
+nav li {
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(27,49,170,1) 0%, rgba(19,81,196,1) 50%, rgba(2,186,255,1) 100%);
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+  display: inline-block;
+}
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0px;
+}
+
+nav li a {
+ color: lightblue;
+ font-weight: bold;
+ font-family: Hevetica, sans-serif;
+ text-decoration: none;
+ display: block;
+ padding: 15px;
+}
+
+nav li a:hover {
+ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(27,49,170,1) 0%, rgba(19,81,196,1) 50%, rgba(2,186,255,1) 100%);
+}
+
+
+main {
+  grid-column: span 4;
+}
+
+main a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  color:purple;
+  text-decoration: underline;
+}
+
+h2 {
+border-bottom: 3px solid #0000bb;
+margin: 15px;
+font-family: helvetica, sans-serif;
+font-weight: normal;
+color: #0000cc;
+
+}
+
+p {
+  margin: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.floatingL {
+  float:left;
+  margin: 10px;
+  border: 3px solid #0000bb;
+}
+
+.floatingR {
+  float:right;
+  margin: 10px;
+  border: 3px solid #0000bb;
+}
+
+.gallery {
+  margin-left: 15px;
+  border: 3px solid #0000bb;
+  padding: 0px;
+
+}
+
+footer {
+  grid-column: span 4;
+  background-color: red;
+  border-top: 5px solid #0000bb;
+}
