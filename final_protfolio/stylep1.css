@@ -1,5 +1,6 @@
 body {
   background-color: #EECEE7;
+    font-family: 'Arvo'
 }
 
 .wrapper{
@@ -26,9 +27,14 @@ nav ul {
 nav li {
   display: inline-block;
   width: 230px;
-  font-size: 35px;
 
 }
+ .name {
+   font-size: 25px;
+   margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000a; /* x, y, blur, color */
+ }
 
 nav li a {
   width: 170px;
@@ -36,6 +42,7 @@ nav li a {
   color: #EECEE7;
   font-size: 25px;
   margin: 0 0 0 40px;
+  font-size: 20px
 }
 
 nav li a:hover {
@@ -43,6 +50,7 @@ nav li a:hover {
   font-weight: bold;
   color: #FEEAD6;
 }
+
 
 h1 {
   color: #AF479A;
@@ -52,10 +60,14 @@ h1 {
   font-size: 55px;
   text-align: center;
   font-weight: normal;
+ text-shadow: 3px 3px 5px #FFFFFF;
+
 }
 
 h2 {
   color: #AF479A;
+ font-weight: bold;
+ text-shadow: 2px 2px 2px #FFFFFF;
 }
 
 .floatingL {
@@ -65,6 +77,6 @@ h2 {
 }
 main {
   grid-column: span 6;
-  width: 900px;
+  width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
