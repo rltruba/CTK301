@@ -98,12 +98,18 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
+.floatingR {
+  float: right;
+  margin: 0;
+  padding-right: 0;
+  grid-column: span 3;
+}
 
 .aboutbox1 {
   width: 320px;
  padding: 10px;
  margin: 0;
-grid-column: span 6;
+grid-column: span 2;
 background-color: #FEEAD6;
 border: 2px solid  #AF479A;
 }
@@ -116,3 +122,14 @@ h4 {
   color:  #AF479A;
   font-weight: bold;
 }
+
+ p {
+   color: #AF479A;
+ }
+
+ .boxes {
+   grid-column: span 6;
+   width: 1000px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
