@@ -76,6 +76,8 @@ h1 {
 }
 .h1notmain {
   grid-column: span 6;
+  padding-top: 120px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -93,27 +95,41 @@ h2 {
 }
 .mainhome {
   grid-column: span 6;
-  width: 1000px;
+  width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.mainabout {
+  grid-column: span 6;
+  width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
 }
 
 .floatingR {
   float: right;
-  margin: 0;
-  padding-right: 0;
+  margin: 40px;
+  padding-left: 0;
   grid-column: span 3;
 }
 
 .aboutbox1 {
   width: 320px;
- padding: 10px;
- margin: 0;
-grid-column: span 2;
+ padding: 10px 40px 10px 40px;
+ margin: 20px 0 20px 0;
+grid-column: span 3;
 background-color: #FEEAD6;
 border: 2px solid  #AF479A;
+
 }
 
+.spotifymusic {
+  grid-column: span 3;
+}
+
+.Lmusic {
+  grid-column: span 3;
+}
 h3 {
   color: #AF479A;
   font-style: italic;
@@ -126,6 +142,13 @@ h4 {
  p {
    color: #AF479A;
  }
+ .Lbox {
+  grid-column: span 3;
+ }
+
+ .Rbox {
+  grid-column: span 3;
+ }
 
  .boxes {
    grid-column: span 6;
@@ -133,3 +156,56 @@ h4 {
    display: grid;
    grid-template-columns: 1fr 1fr;
  }
+/* ask him about this too, buttons for the projects*/
+.githubctk {
+  grid-column: span 6;
+  text-align: center;
+  font-size: 30px;
+}
+ h4 a {
+   text-decoration: none;
+   color: #AF479A;
+ }
+ h4 a:hover {
+   color:#FEEAD6;
+    text-shadow: 2px 2px 2px #000a;
+ }
+main ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-column: span 6;
+}
+main ul li {
+  background: linear-gradient(280deg, rgba(238,174,202,1) 0%, rgba(175,71,154,1) 100%);
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  display: inline-block;
+  border: 2px solid #AF479A;
+}
+
+main ul li a {
+ color: #FEEAD6;
+ text-decoration: none;
+ display: block;
+ padding: 15px;
+}
+main li a:hover {
+ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(175,71,154,1) 100%);
+}
+
+.ctkL {
+  grid-column: span 6;
+  text-align: center;
+}
+main a {
+  color: #FEEAD6;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+
+main a:hover {
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(175,71,154,1) 100%);
+}
