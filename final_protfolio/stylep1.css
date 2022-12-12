@@ -183,6 +183,7 @@ main ul li {
   width: 200px;
   display: inline-block;
   border: 2px solid #AF479A;
+  text-align: center;
 }
 
 main ul li a {
@@ -199,13 +200,26 @@ main li a:hover {
   grid-column: span 6;
   text-align: center;
 }
-main a {
+.ctkbuttons {
+  grid-column: span 6;
+  text-align: center;
+}
+.ctkbuttons a {
+border: 2px solid #AF479A;
+width: 175px;
   color: #FEEAD6;
   text-decoration: none;
   display: block;
   padding: 15px;
+  background: linear-gradient(280deg, rgba(238,174,202,1) 0%, rgba(175,71,154,1) 100%);
+
 }
 
-main a:hover {
+.ctkbuttons a:hover {
 background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(175,71,154,1) 100%);
+}
+
+#center {
+  grid-column: span 6;
+  text-align: center;
 }
